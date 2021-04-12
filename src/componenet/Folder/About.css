@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(206, 175, 175);
+
+}
+.dr-norman{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 240%;
+    color: rgb(51, 51, 51);
+}
+.header-text{
+    margin-bottom: 2%;
+    text-align: center;
+    color: rgb(51, 51, 51);
+}
+.norman-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;    
+}
+@media only screen and (min-width: 1200px)
+{
+    .norman-img{
+        max-width: 1105px;
+    } 
+}
+.img-text{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.img-sec{
+    background-color: white;
+    padding-bottom: 1%;
+}
+.main-heading{ 
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.timeline li,.quote{
+    color: rgb(51, 51, 51);
+    line-height: 150%; 
+    margin: auto; 
+    margin-bottom: 2%;
+    max-width: 640px;
+}
+.quote{ 
+    margin-top: 3%;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+.wikipedia{
+    padding: 5%;
+    font-size: 15px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-align: center;
+}

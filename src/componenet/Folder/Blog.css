@@ -1,0 +1,191 @@
+.cat {
+  padding: 2em 4em 3em;
+}
+
+.vcuhp-billboard .text-white {
+  color: rgb(0, 0, 0);
+}
+.vcuhp-billboard .text-black {
+  color: #121212;
+}
+
+.billboard-gutter {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  min-height: 1em;
+}
+
+.billboard-img,
+.billboard-text {
+  display: block;
+  width: auto;
+}
+
+.billboard-text {
+  padding: 2em;
+  width: auto;
+}
+
+.quicklinks-box .quicklinks-box-header,
+.quicklinks-box .quickfact-box-header,
+.vcuhp-billboard .billboard-gutter {
+  background: #e49560;
+}
+
+.billboard-img {
+  overflow: hidden;
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -webkit-transform: skewX(0deg);
+  transform: skewX(0deg);
+}
+
+.billboard-img .kitten {
+  position: relative;
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  -webkit-transform: skewX(0deg);
+  transform: skewX(0deg);
+  overflow: hidden;
+}
+
+.billboard-img .kitten {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-image: url("https://careerservices.erau.edu/wp-content/uploads/2019/07/teamwork-pic.jpg");
+  background-size: cover;
+  min-height: 400px;
+}
+
+.billboard-img-left {
+  border-right: 0 solid #e4c46e;
+}
+
+.billboard-img-right {
+  border-left: 0 solid #000000;
+}
+
+.billboard-img-left .kitten {
+  right: 0;
+}
+
+.billboard-img-right .kitten {
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .billboard-img,
+  .billboard-text {
+    display: table-cell;
+    width: auto;
+    vertical-align: top;
+  }
+
+  .billboard-img {
+    position: relative;
+    width: 0%;
+    height: 0%;
+  }
+
+  .billboard-img-left {
+    left: -100px;
+  }
+
+  .billboard-img-right {
+    right: -80px;
+  }
+
+  .billboard-text {
+    padding: 2em;
+    width: auto;
+  }
+
+  .billboard-text-gutter {
+    max-width: 100%;
+  }
+
+  .billboard-text h2 {
+    font-size: 32px;
+  }
+
+  .billboard-text p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .billboard-img,
+  .billboard-text {
+    display: table-cell;
+    width: auto;
+    vertical-align: top;
+  }
+
+  .billboard-img {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /*display:table;*/
+  }
+
+  .billboard-img-left {
+    border-right: 10px solid #f5ac68;
+  }
+
+  .billboard-img-right {
+    border-left: 10px solid #f5ac68;
+  }
+
+  .billboard-img-left .kitten {
+    right: -70px;
+  }
+
+  .billboard-img-right .kitten {
+    left: -50px;
+  }
+
+  .billboard-text {
+    padding: 3em;
+    width: 50%;
+  }
+
+  .billboard-text-right {
+    padding-left: 0;
+  }
+
+  .billboard-text-left {
+    padding-right: 0;
+  }
+
+  .billboard-text-gutter {
+    width: 100%;
+  }
+
+  .billboard-text h2 {
+    font-size: 32px;
+  }
+
+  .billboard-text p {
+    font-size: 20px;
+  }
+
+  .billboard-img {
+    overflow: hidden;
+    -moz-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+  }
+
+  .billboard-img .kitten {
+    position: relative;
+    -moz-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+    transform: skewX(15deg);
+    overflow: hidden;
+  }
+}
